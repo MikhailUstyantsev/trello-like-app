@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83527CCA2AF8AB9400999BF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83527CC92AF8AB9400999BF5 /* AppDelegate.swift */; };
+		83527CCC2AF8AB9400999BF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83527CCB2AF8AB9400999BF5 /* SceneDelegate.swift */; };
+		83527CCE2AF8AB9400999BF5 /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83527CCD2AF8AB9400999BF5 /* BoardViewController.swift */; };
+		83527CD32AF8AB9400999BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83527CD22AF8AB9400999BF5 /* Assets.xcassets */; };
+		83527CD62AF8AB9400999BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83527CD42AF8AB9400999BF5 /* LaunchScreen.storyboard */; };
+		83527CDF2AF8ACD500999BF5 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83527CDE2AF8ACD500999BF5 /* Board.swift */; };
+		83527CE22AF8AD3D00999BF5 /* BoardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83527CE12AF8AD3D00999BF5 /* BoardCollectionViewCell.swift */; };
+		83527CE62AF8D29000999BF5 /* TableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83527CE52AF8D29000999BF5 /* TableHeaderView.swift */; };
+		83527CFC2AF8D5A000999BF5 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CEA2AF8D5A000999BF5 /* Montserrat-LightItalic.ttf */; };
+		83527CFD2AF8D5A000999BF5 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CEB2AF8D5A000999BF5 /* Montserrat-Medium.ttf */; };
+		83527CFE2AF8D5A000999BF5 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CEC2AF8D5A000999BF5 /* Montserrat-BoldItalic.ttf */; };
+		83527CFF2AF8D5A000999BF5 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CED2AF8D5A000999BF5 /* Montserrat-Light.ttf */; };
+		83527D002AF8D5A000999BF5 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CEE2AF8D5A000999BF5 /* Montserrat-ThinItalic.ttf */; };
+		83527D012AF8D5A000999BF5 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CEF2AF8D5A000999BF5 /* Montserrat-ExtraLight.ttf */; };
+		83527D022AF8D5A000999BF5 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CF02AF8D5A000999BF5 /* Montserrat-Thin.ttf */; };
+		83527D032AF8D5A000999BF5 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CF12AF8D5A000999BF5 /* Montserrat-Bold.ttf */; };
+		83527D042AF8D5A000999BF5 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CF22AF8D5A000999BF5 /* Montserrat-MediumItalic.ttf */; };
+		83527D052AF8D5A000999BF5 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CF32AF8D5A000999BF5 /* Montserrat-BlackItalic.ttf */; };
+		83527D062AF8D5A000999BF5 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CF42AF8D5A000999BF5 /* Montserrat-SemiBold.ttf */; };
+		83527D072AF8D5A000999BF5 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CF52AF8D5A000999BF5 /* Montserrat-ExtraLightItalic.ttf */; };
+		83527D082AF8D5A000999BF5 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CF62AF8D5A000999BF5 /* Montserrat-ExtraBold.ttf */; };
+		83527D092AF8D5A000999BF5 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CF72AF8D5A000999BF5 /* Montserrat-Black.ttf */; };
+		83527D0A2AF8D5A000999BF5 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CF82AF8D5A000999BF5 /* Montserrat-Regular.ttf */; };
+		83527D0B2AF8D5A000999BF5 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CF92AF8D5A000999BF5 /* Montserrat-Italic.ttf */; };
+		83527D0C2AF8D5A000999BF5 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CFA2AF8D5A000999BF5 /* Montserrat-SemiBoldItalic.ttf */; };
+		83527D0D2AF8D5A000999BF5 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83527CFB2AF8D5A000999BF5 /* Montserrat-ExtraBoldItalic.ttf */; };
+		83527D142AF8D5A600999BF5 /* UIView + ext .swift in Sources */ = {isa = PBXBuildFile; fileRef = 83527D102AF8D5A600999BF5 /* UIView + ext .swift */; };
+		83527D152AF8D5A600999BF5 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83527D112AF8D5A600999BF5 /* UIColor + ext.swift */; };
+		83527D182AF8D5C900999BF5 /* Resouces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83527D172AF8D5C900999BF5 /* Resouces.swift */; };
+		83527D1D2AF95C8800999BF5 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83527D1C2AF95C8800999BF5 /* SectionHeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83527CC62AF8AB9400999BF5 /* Trello-likeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trello-likeApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83527CC92AF8AB9400999BF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83527CCB2AF8AB9400999BF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		83527CCD2AF8AB9400999BF5 /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		83527CD22AF8AB9400999BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83527CD52AF8AB9400999BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83527CD72AF8AB9400999BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83527CDE2AF8ACD500999BF5 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		83527CE12AF8AD3D00999BF5 /* BoardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCollectionViewCell.swift; sourceTree = "<group>"; };
+		83527CE52AF8D29000999BF5 /* TableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableHeaderView.swift; sourceTree = "<group>"; };
+		83527CEA2AF8D5A000999BF5 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		83527CEB2AF8D5A000999BF5 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		83527CEC2AF8D5A000999BF5 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		83527CED2AF8D5A000999BF5 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		83527CEE2AF8D5A000999BF5 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		83527CEF2AF8D5A000999BF5 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		83527CF02AF8D5A000999BF5 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		83527CF12AF8D5A000999BF5 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		83527CF22AF8D5A000999BF5 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		83527CF32AF8D5A000999BF5 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		83527CF42AF8D5A000999BF5 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		83527CF52AF8D5A000999BF5 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		83527CF62AF8D5A000999BF5 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		83527CF72AF8D5A000999BF5 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		83527CF82AF8D5A000999BF5 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		83527CF92AF8D5A000999BF5 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		83527CFA2AF8D5A000999BF5 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		83527CFB2AF8D5A000999BF5 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		83527D102AF8D5A600999BF5 /* UIView + ext .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + ext .swift"; sourceTree = "<group>"; };
+		83527D112AF8D5A600999BF5 /* UIColor + ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
+		83527D172AF8D5C900999BF5 /* Resouces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resouces.swift; sourceTree = "<group>"; };
+		83527D1C2AF95C8800999BF5 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83527CC32AF8AB9400999BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83527CBD2AF8AB9400999BF5 = {
+			isa = PBXGroup;
+			children = (
+				83527CC82AF8AB9400999BF5 /* Trello-likeApp */,
+				83527CC72AF8AB9400999BF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83527CC72AF8AB9400999BF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83527CC62AF8AB9400999BF5 /* Trello-likeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83527CC82AF8AB9400999BF5 /* Trello-likeApp */ = {
+			isa = PBXGroup;
+			children = (
+				83527D1F2AF9800600999BF5 /* Application */,
+				83527CDD2AF8ACC600999BF5 /* Models */,
+				83527CE42AF8D0EB00999BF5 /* TableViewSupplementaryViews */,
+				83527CE02AF8AD0B00999BF5 /* CollectionViewCells */,
+				83527D1E2AF966FD00999BF5 /* Controllers */,
+				83527CE72AF8D56000999BF5 /* SupportingFiles */,
+			);
+			path = "Trello-likeApp";
+			sourceTree = "<group>";
+		};
+		83527CDD2AF8ACC600999BF5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83527CDE2AF8ACD500999BF5 /* Board.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		83527CE02AF8AD0B00999BF5 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				83527CE12AF8AD3D00999BF5 /* BoardCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		83527CE42AF8D0EB00999BF5 /* TableViewSupplementaryViews */ = {
+			isa = PBXGroup;
+			children = (
+				83527CE52AF8D29000999BF5 /* TableHeaderView.swift */,
+				83527D1C2AF95C8800999BF5 /* SectionHeaderView.swift */,
+			);
+			path = TableViewSupplementaryViews;
+			sourceTree = "<group>";
+		};
+		83527CE72AF8D56000999BF5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				83527D172AF8D5C900999BF5 /* Resouces.swift */,
+				83527D0E2AF8D5A600999BF5 /* Extensions */,
+				83527CE82AF8D5A000999BF5 /* Fonts */,
+				83527CD72AF8AB9400999BF5 /* Info.plist */,
+				83527CD42AF8AB9400999BF5 /* LaunchScreen.storyboard */,
+				83527CD22AF8AB9400999BF5 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		83527CE82AF8D5A000999BF5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				83527CE92AF8D5A000999BF5 /* Montserrat */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		83527CE92AF8D5A000999BF5 /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				83527CEA2AF8D5A000999BF5 /* Montserrat-LightItalic.ttf */,
+				83527CEB2AF8D5A000999BF5 /* Montserrat-Medium.ttf */,
+				83527CEC2AF8D5A000999BF5 /* Montserrat-BoldItalic.ttf */,
+				83527CED2AF8D5A000999BF5 /* Montserrat-Light.ttf */,
+				83527CEE2AF8D5A000999BF5 /* Montserrat-ThinItalic.ttf */,
+				83527CEF2AF8D5A000999BF5 /* Montserrat-ExtraLight.ttf */,
+				83527CF02AF8D5A000999BF5 /* Montserrat-Thin.ttf */,
+				83527CF12AF8D5A000999BF5 /* Montserrat-Bold.ttf */,
+				83527CF22AF8D5A000999BF5 /* Montserrat-MediumItalic.ttf */,
+				83527CF32AF8D5A000999BF5 /* Montserrat-BlackItalic.ttf */,
+				83527CF42AF8D5A000999BF5 /* Montserrat-SemiBold.ttf */,
+				83527CF52AF8D5A000999BF5 /* Montserrat-ExtraLightItalic.ttf */,
+				83527CF62AF8D5A000999BF5 /* Montserrat-ExtraBold.ttf */,
+				83527CF72AF8D5A000999BF5 /* Montserrat-Black.ttf */,
+				83527CF82AF8D5A000999BF5 /* Montserrat-Regular.ttf */,
+				83527CF92AF8D5A000999BF5 /* Montserrat-Italic.ttf */,
+				83527CFA2AF8D5A000999BF5 /* Montserrat-SemiBoldItalic.ttf */,
+				83527CFB2AF8D5A000999BF5 /* Montserrat-ExtraBoldItalic.ttf */,
+			);
+			path = Montserrat;
+			sourceTree = "<group>";
+		};
+		83527D0E2AF8D5A600999BF5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				83527D102AF8D5A600999BF5 /* UIView + ext .swift */,
+				83527D112AF8D5A600999BF5 /* UIColor + ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		83527D1E2AF966FD00999BF5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				83527CCD2AF8AB9400999BF5 /* BoardViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		83527D1F2AF9800600999BF5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				83527CC92AF8AB9400999BF5 /* AppDelegate.swift */,
+				83527CCB2AF8AB9400999BF5 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83527CC52AF8AB9400999BF5 /* Trello-likeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83527CDA2AF8AB9400999BF5 /* Build configuration list for PBXNativeTarget "Trello-likeApp" */;
+			buildPhases = (
+				83527CC22AF8AB9400999BF5 /* Sources */,
+				83527CC32AF8AB9400999BF5 /* Frameworks */,
+				83527CC42AF8AB9400999BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trello-likeApp";
+			productName = "Trello-likeApp";
+			productReference = 83527CC62AF8AB9400999BF5 /* Trello-likeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83527CBE2AF8AB9400999BF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					83527CC52AF8AB9400999BF5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 83527CC12AF8AB9400999BF5 /* Build configuration list for PBXProject "Trello-likeApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83527CBD2AF8AB9400999BF5;
+			productRefGroup = 83527CC72AF8AB9400999BF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83527CC52AF8AB9400999BF5 /* Trello-likeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83527CC42AF8AB9400999BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83527D0C2AF8D5A000999BF5 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				83527D042AF8D5A000999BF5 /* Montserrat-MediumItalic.ttf in Resources */,
+				83527D032AF8D5A000999BF5 /* Montserrat-Bold.ttf in Resources */,
+				83527D0A2AF8D5A000999BF5 /* Montserrat-Regular.ttf in Resources */,
+				83527D062AF8D5A000999BF5 /* Montserrat-SemiBold.ttf in Resources */,
+				83527CFF2AF8D5A000999BF5 /* Montserrat-Light.ttf in Resources */,
+				83527D022AF8D5A000999BF5 /* Montserrat-Thin.ttf in Resources */,
+				83527D002AF8D5A000999BF5 /* Montserrat-ThinItalic.ttf in Resources */,
+				83527CD62AF8AB9400999BF5 /* LaunchScreen.storyboard in Resources */,
+				83527CD32AF8AB9400999BF5 /* Assets.xcassets in Resources */,
+				83527CFD2AF8D5A000999BF5 /* Montserrat-Medium.ttf in Resources */,
+				83527D092AF8D5A000999BF5 /* Montserrat-Black.ttf in Resources */,
+				83527D012AF8D5A000999BF5 /* Montserrat-ExtraLight.ttf in Resources */,
+				83527D082AF8D5A000999BF5 /* Montserrat-ExtraBold.ttf in Resources */,
+				83527D052AF8D5A000999BF5 /* Montserrat-BlackItalic.ttf in Resources */,
+				83527CFE2AF8D5A000999BF5 /* Montserrat-BoldItalic.ttf in Resources */,
+				83527D0B2AF8D5A000999BF5 /* Montserrat-Italic.ttf in Resources */,
+				83527D0D2AF8D5A000999BF5 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				83527CFC2AF8D5A000999BF5 /* Montserrat-LightItalic.ttf in Resources */,
+				83527D072AF8D5A000999BF5 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83527CC22AF8AB9400999BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83527D1D2AF95C8800999BF5 /* SectionHeaderView.swift in Sources */,
+				83527CE62AF8D29000999BF5 /* TableHeaderView.swift in Sources */,
+				83527CE22AF8AD3D00999BF5 /* BoardCollectionViewCell.swift in Sources */,
+				83527D142AF8D5A600999BF5 /* UIView + ext .swift in Sources */,
+				83527CCE2AF8AB9400999BF5 /* BoardViewController.swift in Sources */,
+				83527D182AF8D5C900999BF5 /* Resouces.swift in Sources */,
+				83527CCA2AF8AB9400999BF5 /* AppDelegate.swift in Sources */,
+				83527D152AF8D5A600999BF5 /* UIColor + ext.swift in Sources */,
+				83527CDF2AF8ACD500999BF5 /* Board.swift in Sources */,
+				83527CCC2AF8AB9400999BF5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83527CD42AF8AB9400999BF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83527CD52AF8AB9400999BF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83527CD82AF8AB9400999BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83527CD92AF8AB9400999BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83527CDB2AF8AB9400999BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2R32CKST38;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trello-likeApp/SupportingFiles/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikhail.ustyantsev.Trello-likeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83527CDC2AF8AB9400999BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2R32CKST38;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trello-likeApp/SupportingFiles/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikhail.ustyantsev.Trello-likeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83527CC12AF8AB9400999BF5 /* Build configuration list for PBXProject "Trello-likeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83527CD82AF8AB9400999BF5 /* Debug */,
+				83527CD92AF8AB9400999BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83527CDA2AF8AB9400999BF5 /* Build configuration list for PBXNativeTarget "Trello-likeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83527CDB2AF8AB9400999BF5 /* Debug */,
+				83527CDC2AF8AB9400999BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83527CBE2AF8AB9400999BF5 /* Project object */;
+}
