@@ -21,3 +21,11 @@ All the magic happens when implementing the UITableViewDragDelegate and UITableV
 <p align="center">
   <img src="https://github.com/MikhailUstyantsev/trello-like-app/blob/main/Application%20Flow%20Diagram.png" alt="Application Flow Diagram"/>
 </p>
+
+<div align="center">
+  <img src="https://github.com/MikhailUstyantsev/trello-like-app/blob/main/Trello-like%20App.mp4"/>
+</div>
+
+<p align="center">
+  User Interface demo
+</p>
