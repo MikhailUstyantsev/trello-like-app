@@ -18,4 +18,6 @@ This can be applied if we need a project where the user can move data around the
 All the magic happens when implementing the UITableViewDragDelegate and UITableViewDropDelegate methods. The diagram of this application is presented on the slide.
 
 
-
+<p align="center">
+  <img src="https://github.com/MikhailUstyantsev/trello-like-app/blob/main/Application%20Flow%20Diagram.png" alt="Application Flow Diagram"/>
+</p>
