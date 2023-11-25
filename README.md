@@ -23,7 +23,7 @@ All the magic happens when implementing the UITableViewDragDelegate and UITableV
 </p>
 
 <div align="center">
-  <img src="https://github.com/MikhailUstyantsev/trello-like-app/blob/main/AppDemo.gif"/>
+  <img src="https://github.com/MikhailUstyantsev/trello-like-app/blob/main/AppDemo.gif" width="250" />
 </div>
 
 <p align="center">
